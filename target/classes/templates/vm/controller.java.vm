@@ -40,9 +40,9 @@ import ${package.Controller}.request.${entity}Request;
 @RequestMapping("/#if($!{controllerMappingHyphenStyle})$!{controllerMappingHyphen}#else$!{table.entityPath}#end")
 @Api(value = "$!{table.comment}管理" , tags = "$!{table.comment}管理")
 #if(${superControllerClass})
-public class $!{table.controllerName} extends ViteaController<$!{entity}>  {
+public class $!{table.controllerName} {
 #else
-public class $!{table.controllerName} extends ViteaController<$!{entity}>  {
+public class $!{table.controllerName} {
 #end
     private final Logger logger = LoggerFactory.getLogger(${table.controllerName}.class);
 

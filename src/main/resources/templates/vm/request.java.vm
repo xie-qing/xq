@@ -25,7 +25,7 @@ import ${pkg};
 @Data
 @EqualsAndHashCode(callSuper = false)
 #end
-public class ${entity}Request extends RestRequest{
+public class ${entity}Request {
 
     private static final long serialVersionUID = 1L;
 
