@@ -1,6 +1,6 @@
 package ${cfg.ExceptionPak};
 
-import com.xq.viteautilcore.handler.ViteaRuntimeException;
+import ${cfg.ExceptionPak}.CustomizeException;
 
 /**
  * <p>
@@ -10,7 +10,7 @@ import com.xq.viteautilcore.handler.ViteaRuntimeException;
  * @author ${author}
  * @since ${date}
  */
-public class  ${entity}Exception extends ViteaRuntimeException {
+public class  ${entity}Exception extends CustomizeException {
 
     private static final long serialVersionUID = 1L;
 

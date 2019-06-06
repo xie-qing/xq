@@ -38,7 +38,6 @@ public class CodeGenerator {
 	 * 读取控制台内容
 	 * </p>
 	 */
-
 	public String scanner(String tip) {
 		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);
@@ -138,7 +137,6 @@ public class CodeGenerator {
 	/**
 	 * 自定义实体类魔板
 	 */
-
 	public TemplateConfig getTemplateConfig() {
 		TemplateConfig templateConfig = new TemplateConfig();
 		templateConfig.setController("/templates/vm/controller.java.vm");
