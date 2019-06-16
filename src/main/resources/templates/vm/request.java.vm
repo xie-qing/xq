@@ -2,7 +2,8 @@ package ${package.Controller}.request;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
-import com.xq.viteautilcore.web.page.RestRequest;
+import io.swagger.annotations.ApiModelProperty;
+import java.io.Serializable;
 
 #if(${activeRecord})
 #end
@@ -25,7 +26,7 @@ import ${pkg};
 @Data
 @EqualsAndHashCode(callSuper = false)
 #end
-public class ${entity}Request {
+public class ${entity}Request implements Serializable{
 
     private static final long serialVersionUID = 1L;
 
@@ -63,6 +64,8 @@ public class ${entity}Request {
 #if(${field.keyIdentityFlag})
 
 #else
+
+	@ApiModelProperty(name = "${field.propertyName}" , value = "${field.comment}")
     private ${field.propertyType} ${field.propertyName};
 #end
 #end

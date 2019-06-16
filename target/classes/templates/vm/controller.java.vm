@@ -5,9 +5,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.xq.viteautilcore.common.ResultOB;
-import com.xq.viteautilcore.web.page.ViteaController;
-import com.xq.viteautilcore.web.page.ViteaPage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
@@ -16,6 +13,7 @@ import io.swagger.annotations.*;
 import javax.validation.constraints.NotNull;
 
 import java.util.List;
+import com.tools.comm.ResultDB;
 
 
 #if(${restControllerStyle})
@@ -61,50 +59,50 @@ public class $!{table.controllerName} {
     /**
      * 根据id查询对象
      * @param id  实体ID
-     * @return ResultOB 结果集 error 失败  success 成功
+     * @return ResultDB 结果集 error 失败  success 成功
      */
     @ApiOperation(value = "根据id查询$!{table.comment}信息")
     @GetMapping("/{id}")
-    public ResultOB get$!{entity}ByID(@PathVariable @NotNull(message = "id不能为空") Integer id){
+    public ResultDB get$!{entity}ByID(@PathVariable @NotNull(message = "id不能为空") Integer id){
         $!{entity} ${table.entityPath} = i$!{entity}Service.getById(id);
         if($!{table.entityPath} == null){
-            return ResultOB.error("查询失败，该数据已被删除或无该数据！");
+            return ResultDB.error("查询失败，该数据已被删除或无该数据！");
         }
-        return ResultOB.success("查询成功！" , ${table.entityPath});
+        return ResultDB.success("查询成功！" , ${table.entityPath});
     }
 
     /**
      * 分页查询数据
      * @param page  分页信息
-     * @return ResultOB
+     * @return ResultDB
      */
 
     @ApiOperation(value = "根据分页查询条件查询$!{table.comment}信息")
     @PostMapping("/get${entity}PageList")
-    public ResultOB get${entity}List(@RequestBody @Validated ViteaPage<${entity}> page) {
+    public ResultDB get${entity}List(@RequestBody @Validated ViteaPage<${entity}> page) {
         IPage lists = i${entity}Service.page(getPage(page), getCondition(page));
         if(lists == null){
             logger.error("==========>" + lists);
-            return ResultOB.error("无查询记录！");
+            return ResultDB.error("无查询记录！");
 
         }
-        return ResultOB.success("查询成功", lists);
+        return ResultDB.success("查询成功", lists);
     }
 
     /**
      * 修改数据
      * @param ${table.entityPath}  实体类
-     * @return ResultOB
+     * @return ResultDB
      */
     @ApiOperation(value = "修改${table.entityPath}信息")
     @PutMapping("/$!{table.entityPath}Update")
-    public ResultOB $!{table.entityPath}Update(@RequestBody @Validated $!{entity} $!{table.entityPath}) {
+    public ResultDB $!{table.entityPath}Update(@RequestBody @Validated $!{entity} $!{table.entityPath}) {
         $!{entity} old${table.entityPath} = i${entity}Service.getById($!{table.entityPath}.getId());
         if(old$!{table.entityPath} == null){
-            return ResultOB.error("无该数据或已被删除");
+            return ResultDB.error("无该数据或已被删除");
         }
         i${entity}Service.saveOrUpdate(${table.entityPath});
-        return ResultOB.success("修改成功" , ${table.entityPath});
+        return ResultDB.success("修改成功" , ${table.entityPath});
     }
 
     /**
@@ -115,13 +113,13 @@ public class $!{table.controllerName} {
 
     @ApiOperation(value = "添加${table.entityPath}信息")
     @PostMapping("/")
-    public ResultOB ${table.entityPath}Save(@RequestBody @Validated ${entity}Request ${table.entityPath}Request) {
+    public ResultDB ${table.entityPath}Save(@RequestBody @Validated ${entity}Request ${table.entityPath}Request) {
         ${entity} old${entity} = i${entity}Service.getById(${table.entityPath}Request);
         if(old${entity} == null){
-            return ResultOB.error("无该数据或已被删除");
+            return ResultDB.error("无该数据或已被删除");
         }
         ${entity} new${table.entityPath} =  i${entity}Service.save${entity}(${table.entityPath}Request);
-        return ResultOB.success("添加成功！" , new${table.entityPath});
+        return ResultDB.success("添加成功！" , new${table.entityPath});
     }
 
     /**
@@ -131,13 +129,13 @@ public class $!{table.controllerName} {
      */
     @ApiOperation(value = "删除信息")
     @DeleteMapping("/{id}")
-    public ResultOB ${table.entityPath}DeleteByID(@PathVariable @NotNull(message = "id不能为空") Integer id){
+    public ResultDB ${table.entityPath}DeleteByID(@PathVariable @NotNull(message = "id不能为空") Integer id){
         ${entity} ${table.entityPath} = i${entity}Service.getById(id);
         if(${table.entityPath} == null){
-            return ResultOB.error("删除失败，该数据已被删除或无该数据！");
+            return ResultDB.error("删除失败，该数据已被删除或无该数据！");
         }
         i${entity}Service.removeById(id);
-        return ResultOB.success("删除成功！" , ${table.entityPath});
+        return ResultDB.success("删除成功！" , ${table.entityPath});
     }
 
     /**
@@ -148,12 +146,12 @@ public class $!{table.controllerName} {
 
     @ApiOperation(value = "批量删除数据")
     @PostMapping("/${table.entityPath}BatchDelete")
-    public ResultOB deleteBatchIds(@RequestBody @Validated List<Long> ids){
+    public ResultDB deleteBatchIds(@RequestBody @Validated List<Long> ids){
         if(ids.size() < 1 ){
-            ResultOB.error("删除失败，该数据已被删除或无该数据！");
+            ResultDB.error("删除失败，该数据已被删除或无该数据！");
         }
         i${entity}Service.removeByIds(ids);
-        return ResultOB.success("删除成功！" ,ids);
+        return ResultDB.success("删除成功！" ,ids);
     }
 
 

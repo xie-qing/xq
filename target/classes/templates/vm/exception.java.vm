@@ -1,6 +1,6 @@
 package ${cfg.ExceptionPak};
 
-import ${cfg.ExceptionPak}.CustomizeException;
+import com.tools.exception.CustomizeException;
 
 /**
  * <p>

@@ -1,4 +1,4 @@
-package com.tools.generatercode;
+package com.tools.exception;
 
 
 public class CustomizeException extends RuntimeException {

@@ -27,7 +27,7 @@ public class CodeGenerator {
 	public static final String URL = "jdbc:mysql://localhost:3306/vitea?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC";
 //	 public static final String URL ="jdbc:mysql://127.0.0.1:3306/vitea?useUnicode=true&useSSL=false&characterEncoding=utf8";
 	public static final String USERNAME = "root";
-	public static final String PASSWORD = "root";
+	public static final String PASSWORD = "admin";
 	public static final String PACK_NAME = "com.tools";
 	public static final String PROJECT_NAME = "/";
 	public static final String DRIVERNAME = "com.mysql.cj.jdbc.Driver";
