@@ -1,3 +1,19 @@
 server:
   port: 8000
+  
+spring:
+  http:
+    encoding:
+      enabled: true
+      charset: UTF-8
+      force: true
+  application:
+    name: vitea-user-server
+  datasource:
+    url: jdbc:mysql://localhost:3306/vitea?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    
 

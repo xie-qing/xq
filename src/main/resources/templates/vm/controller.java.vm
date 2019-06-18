@@ -11,10 +11,11 @@ import org.springframework.web.bind.annotation.*;
 
 import io.swagger.annotations.*;
 import javax.validation.constraints.NotNull;
+import java.io.Serializable;
 
 import java.util.List;
 import com.tools.comm.ResultDB;
-
+import com.tools.comm.*;
 
 #if(${restControllerStyle})
 
@@ -40,8 +41,12 @@ import ${package.Controller}.request.${entity}Request;
 #if(${superControllerClass})
 public class $!{table.controllerName} {
 #else
-public class $!{table.controllerName} {
+public class $!{table.controllerName} extends ResultPage<${entity}> implements Serializable{
 #end
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
     private final Logger logger = LoggerFactory.getLogger(${table.controllerName}.class);
 
     @Autowired
@@ -72,15 +77,15 @@ public class $!{table.controllerName} {
     }
 
     /**
-     * 分页查询数据
+     * 	分页查询数据
      * @param page  分页信息
      * @return ResultDB
      */
 
     @ApiOperation(value = "根据分页查询条件查询$!{table.comment}信息")
     @PostMapping("/get${entity}PageList")
-    public ResultDB get${entity}List(@RequestBody @Validated ViteaPage<${entity}> page) {
-        IPage lists = i${entity}Service.page(getPage(page), getCondition(page));
+    public ResultDB get${entity}List(@RequestBody @Validated PageHelp<${entity}> page) {
+        IPage<${entity}> lists = i${entity}Service.page(getPage(page), getWrapper(page));
         if(lists == null){
             logger.error("==========>" + lists);
             return ResultDB.error("无查询记录！");
@@ -90,7 +95,7 @@ public class $!{table.controllerName} {
     }
 
     /**
-     * 修改数据
+     * 	修改数据
      * @param ${table.entityPath}  实体类
      * @return ResultDB
      */
@@ -106,7 +111,7 @@ public class $!{table.controllerName} {
     }
 
     /**
-     * 保存和修改公用的
+     * 	保存和修改公用的
      * @param ${table.entityPath}Request  传递的实体
      * @return  error 失败  success 成功
      */
@@ -123,7 +128,7 @@ public class $!{table.controllerName} {
     }
 
     /**
-     * 根据id删除对象
+     * 	根据id删除对象
      * @param id  实体ID
      * @return error 失败  success 成功
      */
@@ -139,7 +144,7 @@ public class $!{table.controllerName} {
     }
 
     /**
-     * 批量删除对象
+     * 	批量删除对象
      * @param ids 实体集合ID
      * @return  error 失败  success 成功
      */

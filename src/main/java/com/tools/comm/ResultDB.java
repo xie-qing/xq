@@ -5,7 +5,7 @@ import com.tools.comm.enumcode.CodeEnum;
 import lombok.Data;
 
 /**
- * 统一响应类
+ * 	统一响应类
  * 
  * @author xieqing
  * @date 2019-06
