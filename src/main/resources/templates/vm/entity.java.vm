@@ -45,7 +45,7 @@ public class ${entity} implements Serializable {
 #end
 #if("$!field.comment" != "")
     /**
-     * ${field.comment}
+     * 	${field.comment}
      */
 #end
 #if(${field.keyFlag})

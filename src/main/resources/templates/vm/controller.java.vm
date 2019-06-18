@@ -53,7 +53,7 @@ public class $!{table.controllerName} extends ResultPage<${entity}> implements S
     public ${table.serviceName} i${entity}Service;
 
     /**
-     * 跳转列表页面
+     * 	跳转列表页面
      * @return
      */
     @GetMapping ("/$!{table.entityPath}Index")
@@ -62,7 +62,7 @@ public class $!{table.controllerName} extends ResultPage<${entity}> implements S
     }
 
     /**
-     * 根据id查询对象
+     * 	根据id查询对象
      * @param id  实体ID
      * @return ResultDB 结果集 error 失败  success 成功
      */

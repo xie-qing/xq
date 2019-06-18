@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 @SpringBootApplication
-@MapperScan("com.tools.yt.mapper")
+@MapperScan("com.tools.user.mapper")
 //@SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
 public class ToolsKitApplication {
 

@@ -26,8 +26,7 @@ public class ${table.serviceImplName} extends ${superServiceImplClass}<${table.m
     @Autowired
     ${table.mapperName} ${table.entityPath}Mapper;
     /**
-     /**
-                * 添加信息
+     * 	添加信息
      * @param ${table.entityPath}Request  添加的实体类
      */
     @Override

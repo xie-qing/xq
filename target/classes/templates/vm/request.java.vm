@@ -37,7 +37,7 @@ public class ${entity}Request implements Serializable{
 #end
 #if("$!field.comment" != "")
     /**
-     * ${field.comment}
+     * 	${field.comment}
      */
 #end
 #if(${field.keyFlag})

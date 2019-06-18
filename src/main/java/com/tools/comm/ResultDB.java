@@ -5,7 +5,7 @@ import com.tools.comm.enumcode.CodeEnum;
 import lombok.Data;
 
 /**
- * 	统一响应类
+ * 统一响应类
  * 
  * @author xieqing
  * @date 2019-06
@@ -13,9 +13,9 @@ import lombok.Data;
 @Data
 public class ResultDB {
 
-//	成功状态码
+	//	成功状态码
 	private static final String SUCCESS_CODE = "200";
-//	失败状态码
+	//	失败状态码
 	private static final String ERROR_CODE = "-1";
 
 	private String code;
@@ -23,7 +23,6 @@ public class ResultDB {
 	private String message;
 
 	private Object data;
-	private CodeEnum codeEnum;
 
 	public ResultDB() {
 	}
@@ -54,7 +53,9 @@ public class ResultDB {
 	}
 
 	public ResultDB(CodeEnum codeEnum) {
-		this.codeEnum = codeEnum;
+		this.data = null;
+		this.code = codeEnum.getCode();
+		this.message = codeEnum.getMessage();
 	}
 
 	public static ResultDB error() {

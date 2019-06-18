@@ -15,7 +15,7 @@ import ${superServiceClassPackage};
  */
 public interface ${table.serviceName} extends ${superServiceClass}<${entity}> {
     /**
-     * 添加信息
+     *	 添加信息
      * @param ${table.entityPath}Request  添加的实体类
      */
     ${entity} save${entity}(${entity}Request ${table.entityPath}Request);
