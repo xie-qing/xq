@@ -17,7 +17,6 @@ public class CodeGeneratorAppMain {
 		CodeGenerator codeGenerator = new CodeGenerator();
 		codeGenerator.getAutoGenerator();
 		System.out.print(System.getProperty("user.dir"));
-
 	}
 
 }

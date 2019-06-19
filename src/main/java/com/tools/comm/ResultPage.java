@@ -20,6 +20,7 @@ public class ResultPage<T> {
 		Page<T> page = null;
 		if(pageHelp != null) {
 			page = new Page<T>(pageHelp.getCurrent(), pageHelp.getSize());
+			page.setAsc(pageHelp.getAscs());
 		}
 		return page;
 	}
