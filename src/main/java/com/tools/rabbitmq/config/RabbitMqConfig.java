@@ -28,7 +28,7 @@ public class RabbitMqConfig {
 
 	/**
 	 * 单一消费者
-	 * 
+	 *
 	 * @return
 	 */
 	@Bean(name = "singleListenerContainer")
@@ -46,7 +46,7 @@ public class RabbitMqConfig {
 
 	/**
 	 * 多个消费者
-	 * 
+	 *
 	 * @return
 	 */
 	@Bean(name = "multiListenerContainer")
