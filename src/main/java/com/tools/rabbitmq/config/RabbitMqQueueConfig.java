@@ -15,17 +15,26 @@ import com.tools.rabbitmq.mqenum.QueueEnum;
  */
 @Configuration
 public class RabbitMqQueueConfig {
-	
+
+	/**
+	 * 消息队列
+	 */
 	@Bean
 	public Queue getQueue() {
 		return new Queue(QueueEnum.QUEUE_HOLLE.getQueue());
 	}
 
+	/**
+	 * 交换器
+	 */
 	@Bean
 	public DirectExchange getDirectExchange() {
-		return new DirectExchange("DirectExchange_Holle");
+		return new DirectExchange("DirectExchange_Holle" ,true ,false);
 	}
 
+	/**
+	 * 绑定消息队列与交换器
+	 */
 	@Bean
 	public Binding getBinding() {
 		return BindingBuilder.bind(getQueue()).to(getDirectExchange()).with("Binding_Holle");
