@@ -15,6 +15,9 @@ import org.springframework.core.env.Environment;
 
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ * @author admin3
+ */
 @Configuration
 @Slf4j
 public class RabbitMqConfig {

@@ -1,38 +1,42 @@
 package com.tools.rabbitmq.mqenum;
 
+/**
+ * @author admin3
+ */
+
 public enum QueueEnum {
 
-	QUEUE_HOLLE("queue_holle","测试通道");
+    QUEUE_HOLLE("QUEUE_HOLLE", "测试通道");
 
-	String queue;
-	String queueName;
+    String queue;
+    String queueName;
 
-	private QueueEnum() {
-	}
+    private QueueEnum() {
+    }
 
-	private QueueEnum(String queue) {
-		this.queue = queue;
-	}
+    private QueueEnum(String queue) {
+        this.queue = queue;
+    }
 
-	private QueueEnum(String queue, String queueName) {
-		this.queue = queue;
-		this.queueName = queueName;
-	}
+    private QueueEnum(String queue, String queueName) {
+        this.queue = queue;
+        this.queueName = queueName;
+    }
 
-	public String getQueue() {
-		return queue;
-	}
+    public String getQueue() {
+        return queue;
+    }
 
-	public void setQueue(String queue) {
-		this.queue = queue;
-	}
+    public void setQueue(String queue) {
+        this.queue = queue;
+    }
 
-	public String getQueueName() {
-		return queueName;
-	}
+    public String getQueueName() {
+        return queueName;
+    }
 
-	public void setQueueName(String queueName) {
-		this.queueName = queueName;
-	}
+    public void setQueueName(String queueName) {
+        this.queueName = queueName;
+    }
 
 }

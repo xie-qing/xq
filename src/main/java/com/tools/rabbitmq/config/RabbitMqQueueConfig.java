@@ -10,6 +10,9 @@ import org.springframework.context.annotation.Configuration;
 import com.tools.rabbitmq.mqenum.QueueEnum;
 
 
+/**
+ * @author admin3
+ */
 @Configuration
 public class RabbitMqQueueConfig {
 	

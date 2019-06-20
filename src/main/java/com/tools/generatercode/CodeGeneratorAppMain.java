@@ -1,5 +1,5 @@
 
-package com.tools;
+package com.tools.generatercode;
 
 
 import com.tools.generatercode.CodeGenerator;
