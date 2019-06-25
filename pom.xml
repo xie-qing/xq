@@ -137,6 +137,43 @@
 			<artifactId>spring-boot-starter-amqp</artifactId>
 		</dependency>
 
+		<!--&lt;!&ndash; nacos注册中心 &ndash;&gt;-->
+		<!--<dependency>-->
+			<!--<groupId>org.springframework.cloud</groupId>-->
+			<!--<artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>-->
+		<!--</dependency>-->
+		<!--&lt;!&ndash;nacos配置中心 &ndash;&gt;-->
+		<!--<dependency>-->
+			<!--<groupId>org.springframework.cloud</groupId>-->
+			<!--<artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>-->
+		<!--</dependency>-->
+
+		<!-- https://mvnrepository.com/artifact/com.alibaba.boot/nacos-config-spring-boot-autoconfigure -->
+		<!--<dependency>-->
+			<!--<groupId>com.alibaba.boot</groupId>-->
+			<!--<artifactId>nacos-config-spring-boot-autoconfigure</artifactId>-->
+			<!--<version>0.2.1</version>-->
+		<!--</dependency>-->
+		<!--&lt;!&ndash; https://mvnrepository.com/artifact/com.alibaba.boot/nacos-discovery-spring-boot-starter &ndash;&gt;-->
+		<!--<dependency>-->
+			<!--<groupId>com.alibaba.boot</groupId>-->
+			<!--<artifactId>nacos-discovery-spring-boot-starter</artifactId>-->
+			<!--<version>0.2.1</version>-->
+		<!--</dependency>-->
+
+		<!-- nacos注册中心 -->
+		<!--<dependency>-->
+			<!--<groupId>org.springframework.cloud</groupId>-->
+			<!--<artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>-->
+			<!--&lt;!&ndash;<version>${nacos.version}</version> &ndash;&gt;-->
+		<!--</dependency>-->
+		<!--&lt;!&ndash;nacos配置中心 &ndash;&gt;-->
+		<!--<dependency>-->
+			<!--<groupId>org.springframework.cloud</groupId>-->
+			<!--<artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>-->
+			<!--&lt;!&ndash;<version>${nacos.version}</version> &ndash;&gt;-->
+		<!--</dependency>-->
+
 	</dependencies>
 
 	<build>

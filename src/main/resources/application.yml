@@ -1,12 +1,12 @@
 server:
   port: 8000
-  
+  ########################################################### SpringBoot配置#########################################
 spring:
-  http:
-    encoding:
-      enabled: true
-      charset: UTF-8
-      force: true
+#  http:
+#    encoding:
+#      enabled: true
+#      charset: UTF-8
+#      force: true
   application:
     name: ToolsKit-server
 #    数据源
@@ -52,5 +52,34 @@ spring:
 #    db-config:
 #      id-type: auto
 #  mapper-locations: classpath:/mapper/**/*.xml
-    
 
+########################################################### SpringBoot配置#########################################
+# 在命名空间详情处可以获取到 endpoint 和 namespace 的值
+#nacos:
+#  config:
+#    namespace: 3e4661cf-7389-48a9-a02e-632b63c9565a
+  # 推荐使用 RAM 账户的 accessKey 和 secretKey
+#    server-addr: 127.0.0.1:8848
+#  discovery:
+#    server-addr: 127.0.0.1:8848
+#    namespace: 3e4661cf-7389-48a9-a02e-632b63c9565a
+
+########################################################### SpringClound配置#########################################
+#spring:
+#  main:
+#    allow-bean-definition-overriding: true
+#  application:
+#    name: app-ewallet-server
+#  cloud:
+#    #####  以下是nacos配置
+#    nacos:
+#      discovery:  # nacos注册中心
+#        server-addr: 192.168.13.131:8848
+#      config:   # nacos配置中心
+#        namespace: 965f8b38-0d06-479f-b130-f65d99e96cd7
+#        server-addr: 192.168.13.131:8848
+#        ext-config:   # 引入多配置文件，一个配置文件对应一个data-id，data-id必须带一个group
+#          - data-id: app-ewallet-server.yml
+#            group: DEFAULT_GROUP
+##          - data-id: rabbitmq.properties
+##            group: DEFAULT_GROUP

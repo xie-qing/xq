@@ -39,11 +39,6 @@ public class HollerController {
         return "发送成功！";
     }
 
-    @GetMapping("getMessage")
-    public String getMessage() {
-        User user = JSON.parseObject(redisService.get("user").toString(), User.class);
-        return "接收成功" + redisService.get("test") + user.toString()  + redisService.get("user");
-    }
 
 
 }
