@@ -35,7 +35,7 @@ public class HollerController {
 //        rabbitTemplate.convertAndSend("Binding_Holle" , msgText);
         redisService.set("test", "你好");
         redisService.set("user", new User(18, "张三"));
-        rabbitTemplate.convertAndSend("QUEUE_HOLLE", "Hello RabbitMQ!");
+        rabbitTemplate.convertAndSend("QUEUE_HOLLE", new User(18, "张三"));
         return "发送成功！";
     }
 
