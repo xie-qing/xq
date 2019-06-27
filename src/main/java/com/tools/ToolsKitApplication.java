@@ -2,9 +2,11 @@ package com.tools;
 
 
 
+import com.tools.netty.service.NettyServer;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
 @MapperScan("com.tools.user.mapper")
@@ -13,7 +15,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ToolsKitApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ToolsKitApplication.class, args);
+		ApplicationContext context = SpringApplication.run(ToolsKitApplication.class, args);
+		NettyServer nettyServer = context.getBean(NettyServer.class);
+		nettyServer.start();
 	}
 
 }

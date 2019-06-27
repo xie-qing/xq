@@ -49,7 +49,7 @@ public class RSAP7SignMessageDetachDemo {
         params.put("appId","szfl3ca3f0efd3-d0a100536412513");
         params.put("sourceNo","194221659");
         params.put("timestamp","1556454149879");
-        params.put("accountType", "AC02");
+//        params.put("accountType", "AC02");
 //        params.put("corpNo","33");
 //        params.put("outCustomerId","5242513546135492393");
 //        params.put("frontNotifyUrl","http://www.baidu.com");
@@ -62,8 +62,8 @@ public class RSAP7SignMessageDetachDemo {
 //        params.put("bankCardName","葛枝");
 //        params.put("bankNo","12534565689");
 //        params.put("bankName","中国工商银行");
-//    	params.put("queryType","1");
-    	params.put("idcardNo","230502199001083420");
+    	params.put("queryType","1");
+//    	params.put("idcardNo","230502199001083420");
 //    	params.put("outCustomerId","WW003");
 //    	params.put("accountId","PER00000000000000228");
 //    	params.put("companyCreditCode","915100007118817777");

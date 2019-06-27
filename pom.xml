@@ -137,6 +137,13 @@
 			<artifactId>spring-boot-starter-amqp</artifactId>
 		</dependency>
 
+		<!--netty-->
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-all</artifactId>
+			<version>4.1.32.Final</version>
+		</dependency>
+
 		<!--&lt;!&ndash; nacos注册中心 &ndash;&gt;-->
 		<!--<dependency>-->
 			<!--<groupId>org.springframework.cloud</groupId>-->
