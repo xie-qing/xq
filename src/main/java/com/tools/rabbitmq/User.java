@@ -17,4 +17,15 @@ public class User implements Serializable {
         this.age = age;
         this.name = name;
     }
+    public User(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "age=" + age +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }
