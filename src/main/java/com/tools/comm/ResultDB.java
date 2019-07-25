@@ -11,7 +11,7 @@ import lombok.Data;
  * @date 2019-06
  */
 @Data
-public class ResultDB {
+public class ResultDB<T> {
 
 	//	成功状态码
 	private static final String SUCCESS_CODE = "200";

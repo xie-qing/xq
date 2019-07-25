@@ -16,10 +16,10 @@ spring:
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
-#    RebbitMq
+############################################# rabbitmq配置 ########################################################
   rabbitmq:
 #    host: 127.0.0.1
-    host: 192.168.159.129
+    host: 192.168.159.135
     port: 5672
     username: admin
     password: admin
@@ -33,10 +33,10 @@ spring:
     virtual-host: /
     publisher-confirms: true
     #    redis
-
+############################################# redis配置 ########################################################
   redis:
 #    host: 127.0.0.1
-    host: 192.168.159.129
+    host: 192.168.159.135
     password: admin
     port: 6379
     timeout: 6000
@@ -48,6 +48,15 @@ spring:
         max-wait: 100 # # 等待可用连接的最大时间，单位毫秒，默认值为-1，表示永不超时。如果超过等待时间，则直接抛出JedisConnectionException
         min-idle: 2    # 连接池中的最小空闲连接 ，默认值也是0
       shutdown-timeout: 100ms
+############################################# ES配置 ########################################################
+  data:
+    elasticsearch:
+      cluster-name: docker-cluster
+      cluster-nodes: 192.168.159.135:9300
+      repositories:
+        enabled: true
+
+############################################# netty配置 ########################################################
 netty:
   url: 127.0.0.1
   port: 18000

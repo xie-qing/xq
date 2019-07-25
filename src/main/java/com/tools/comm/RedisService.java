@@ -55,10 +55,10 @@ public class RedisService {
 
     /**
      * 写入redis缓存（设置expire存活时间）
-     * @param key
-     * @param value
-     * @param expire
-     * @return
+     * @param key 键
+     * @param value 值
+     * @param expire 过期时间
+     * @return true 缓存成功  false 失败
      */
     public boolean set(final String key, String value, Long expire){
         boolean result = false;
