@@ -2,6 +2,7 @@ package com.tools.es.controller;
 
 import com.tools.comm.ResultDB;
 import com.tools.es.dao.EsBlog;
+import com.tools.es.dao.SerchLog;
 import com.tools.es.dao.UserEsDto;
 import com.tools.es.service.UserEsService;
 import com.tools.rabbitmq.User;
@@ -23,8 +24,8 @@ public class UserEsController {
     }
 
     @PostMapping("/getUserEsByUserName")
-    ResultDB getUsersByUsername(@RequestParam String username) {
-        return userEsService.getUsersByUsername(username);
+    ResultDB getUsersByUsername(@RequestBody SerchLog serchLog) {
+        return userEsService.getUsersByUsername(serchLog);
     }
 
     @PostMapping("/deleteUserById")

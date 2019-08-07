@@ -1,5 +1,9 @@
 package com.tools.es.dao;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.elasticsearch.annotations.Document;
 
@@ -8,54 +12,31 @@ import java.io.Serializable;
 /**
  * 全文检索实体类
  */
-@Document(indexName = "blog",type = "type")//文档
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+//indexName代表所以名称,type代表表名称
+@Document(indexName = "wantu_notice_info", type = "doc")
 public class EsBlog implements Serializable {
-    @Id
-    private String id;
+
+    //id
+    @JsonProperty("auto_id")
+    private Long id;
+
+    //标题
+    @JsonProperty("title")
     private String title;
-    private String summary;
-    private String content;
-    protected EsBlog(){}
 
-    public EsBlog(String title, String summary, String content) {
-        this.title = title;
-        this.summary = summary;
-        this.content = content;
-    }
+    //公告标签
+    @JsonProperty("exchange_mc")
+    private String exchangeMc;
 
-    public String getId() {
-        return id;
-    }
+    //公告发布时间
+    @JsonProperty("create_time")
+    private String originCreateTime;
 
-    public void setId(String id) {
-        this.id = id;
-    }
+    //公告阅读数量
+    @JsonProperty("read_count")
+    private Integer readCount;
 
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getSummary() {
-        return summary;
-    }
-
-    public void setSummary(String summary) {
-        this.summary = summary;
-    }
-
-    public String getContent() {
-        return content;
-    }
-
-    public void setContent(String content) {
-        this.content = content;
-    }
-    @Override
-    public String toString(){
-        return String.format("EsBlog[id='%s',summary='%s',title='%s',content='%s']",id,title,summary,content);
-    }
 }

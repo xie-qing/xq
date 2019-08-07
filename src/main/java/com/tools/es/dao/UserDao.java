@@ -12,17 +12,7 @@ import java.util.List;
  */
 @Repository
 public interface UserDao  extends ElasticsearchRepository<EsBlog,String> {
-    /**
-     * 分页查询博客(去重)
-     * @param title
-     * @param summary
-     * @param content
-     * @return
-     **/
-    Page<EsBlog> findDistinctEsBlogByTitleContainingOrSummaryContainingOrContentContaining(String title, String summary, String content, Pageable pageable);
 
-    @Override
-    List<EsBlog> findAll();
 
 
 }
