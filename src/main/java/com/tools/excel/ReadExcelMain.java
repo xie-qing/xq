@@ -1,6 +1,6 @@
-package com.tools.excel.service;
+package com.tools.excel;
 
-import com.tools.excel.service.Impl.ReadExcelServiceImpl;
+import com.tools.excel.Impl.ReadExcelServiceImpl;
 
 public class ReadExcelMain {
 

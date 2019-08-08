@@ -1,4 +1,4 @@
-package com.tools.excel.service;
+package com.tools.excel;
 
 public interface ReadExcelService {
 	

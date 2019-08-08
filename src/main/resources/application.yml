@@ -19,7 +19,7 @@ spring:
 ############################################# rabbitmq配置 ########################################################
   rabbitmq:
 #    host: 127.0.0.1
-    host: 192.168.159.135
+    host: 192.168.159.136
     port: 5672
     username: admin
     password: admin
@@ -36,7 +36,7 @@ spring:
 ############################################# redis配置 ########################################################
   redis:
 #    host: 127.0.0.1
-    host: 192.168.159.135
+    host: 192.168.159.136
     password: admin
     port: 6379
     timeout: 6000
@@ -52,7 +52,7 @@ spring:
   data:
     elasticsearch:
       cluster-name: docker-cluster
-      cluster-nodes: 192.168.159.135:9300
+      cluster-nodes: 192.168.159.136:9300
       repositories:
         enabled: true
 

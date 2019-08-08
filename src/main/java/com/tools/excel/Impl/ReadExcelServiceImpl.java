@@ -1,4 +1,4 @@
-package com.tools.excel.service.Impl;
+package com.tools.excel.Impl;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -7,8 +7,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.math.BigInteger;
 import java.text.DateFormat;
-import java.util.regex.Pattern;
 
+import com.tools.excel.ReadExcelService;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.DateUtil;
@@ -18,7 +18,7 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.springframework.stereotype.Service;
 
-import com.tools.excel.service.ReadExcelService;
+import static java.util.regex.Pattern.*;
 
 @Service
 public class ReadExcelServiceImpl implements ReadExcelService {
@@ -77,6 +77,7 @@ public class ReadExcelServiceImpl implements ReadExcelService {
 	 */
 	public Workbook getWorkBook(String fileName) {
 		File file = new File(fileName);
+
 		Workbook wb = null;
 		InputStream in = null;
 		try {
@@ -168,7 +169,7 @@ public class ReadExcelServiceImpl implements ReadExcelService {
 			int scale = xsLen - pow > 0 ? xsLen - pow : 0;
 			doubleStr = String.format("%." + scale + "f", d);
 		} else {
-			java.util.regex.Pattern p = Pattern.compile(".$");
+			java.util.regex.Pattern p = compile(".$");
 			java.util.regex.Matcher m = p.matcher(doubleStr);
 			if (m.find()) {
 				doubleStr = doubleStr.replace(".0", "");
