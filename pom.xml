@@ -109,6 +109,13 @@
             <artifactId>druid</artifactId>
             <version>1.0.24</version>
         </dependency>
+        <!--Activiti工作流 start-->
+        <dependency>
+            <groupId>org.activiti</groupId>
+            <artifactId>activiti-spring-boot-starter-basic</artifactId>
+            <version>6.0.0.RC1</version>
+        </dependency>
+        <!--Activiti工作流 end-->
         <dependency>
             <groupId>org.jyaml</groupId>
             <artifactId>jyaml</artifactId>
@@ -181,6 +188,18 @@
             <scope>runtime</scope>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-starter -->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>2.1.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.github.pagehelper/pagehelper -->
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper</artifactId>
+            <version>5.1.10</version>
+        </dependency>
 
         <!--&lt;!&ndash; nacos注册中心 &ndash;&gt;-->
         <!--<dependency>-->

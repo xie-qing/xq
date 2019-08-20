@@ -49,6 +49,15 @@ public class TextWebSocketFrameHandler extends SimpleChannelInboundHandler<FullH
     public TextWebSocketFrameHandler() {
     }
 
+    /**
+     * 〈〉
+     * 功能描述: 读取通道数据<br>
+     * 〈/〉
+     * @param
+     * @return
+     * @author XQ
+     * @date 2019/8/13 11:43
+     */
     @Override
     public void channelRead0(ChannelHandlerContext ctx, FullHttpRequest request) throws Exception {
         if (wsUri.equalsIgnoreCase(request.getUri())) {
@@ -88,6 +97,7 @@ public class TextWebSocketFrameHandler extends SimpleChannelInboundHandler<FullH
             }
         }
     }
+
 
     private static void send100Continue(ChannelHandlerContext ctx) {
         FullHttpResponse response = new DefaultFullHttpResponse(HttpVersion.HTTP_1_1, HttpResponseStatus.CONTINUE);

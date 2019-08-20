@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * 《〉
- * 功能描述: <br>
+ * 功能描述: redis分布式锁<br>
  * 〈〉
  *
  * @author XQ

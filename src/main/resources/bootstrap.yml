@@ -83,3 +83,6 @@ nacos:
 #            group: DEFAULT_GROUP
 ##          - data-id: rabbitmq.properties
 ##            group: DEFAULT_GROUP
+mybatis:
+  config-location: classpath:mybatis-config.xml
+  mapper-locations: classpath:mapper/*.xml
