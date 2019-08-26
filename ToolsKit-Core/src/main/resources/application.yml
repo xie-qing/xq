@@ -1,0 +1,146 @@
+server:
+  port: 8000
+  ########################################################### SpringBoot配置#########################################
+spring:
+  http:
+    encoding:
+      enabled: true
+      charset: UTF-8
+      force: true
+  application:
+    name: ToolsKit-server
+#    数据源
+  datasource:
+    url: jdbc:mysql://localhost:3306/vitea?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+############################################# quartz配置 ########################################################
+  quartz:
+    #相关属性配置
+    properties:
+      org:
+        quartz:
+          scheduler:
+            instanceName: clusteredScheduler
+            instanceId: AUTO
+          jobStore:
+            class: org.quartz.impl.jdbcjobstore.JobStoreTX
+            driverDelegateClass: org.quartz.impl.jdbcjobstore.StdJDBCDelegate
+            tablePrefix: QRTZ_
+            isClustered: true
+            clusterCheckinInterval: 10000
+            useProperties: false
+          threadPool:
+            class: org.quartz.simpl.SimpleThreadPool
+            threadCount: 10
+            threadPriority: 5
+            threadsInheritContextClassLoaderOfInitializingThread: true
+    #数据库方式
+    job-store-type: jdbc
+      #初始化表结构
+    #jdbc:
+    #initialize-schema: never
+############################################# rabbitmq配置 ########################################################
+  rabbitmq:
+#    host: 127.0.0.1
+    host: 192.168.159.138
+    port: 5672
+    username: admin
+    password: admin
+#    并发量的配置 并发消费者的初始化值，并发消费者的最大值，每个消费者每次监听时可拉取处理的消息数量。
+    listener:
+      simple:
+        max-concurrency: 20
+        concurrency: 10
+      direct:
+        prefetch: 5
+    virtual-host: /
+    publisher-confirms: true
+    #    redis
+############################################# redis配置 ########################################################
+  redis:
+#    host: 127.0.0.1
+    host: 192.168.159.138
+    password: admin
+    port: 6379
+    timeout: 6000
+    database: 1
+    lettuce:
+      pool:
+        max-active: 10 # 连接池最大连接数（使用负值表示没有限制）,如果赋值为-1，则表示不限制；如果pool已经分配了maxActive个jedis实例，则此时pool的状态为exhausted(耗尽)
+        max-idle: 8   # 连接池中的最大空闲连接 ，默认值也是8
+        max-wait: 100 # # 等待可用连接的最大时间，单位毫秒，默认值为-1，表示永不超时。如果超过等待时间，则直接抛出JedisConnectionException
+        min-idle: 2    # 连接池中的最小空闲连接 ，默认值也是0
+      shutdown-timeout: 100ms
+############################################# ES配置 ########################################################
+  data:
+    elasticsearch:
+      cluster-name: docker-cluster
+      cluster-nodes: 192.168.159.138:9300
+      repositories:
+        enabled: true
+  ############################################# activiti配置 ########################################################
+  activiti:
+    check-process-definitions: false
+    #false：false为默认值，设置为该值后，Activiti在启动时，会对比数据库表中保存的版本，如果没有表或者版本不匹配时，将在启动时抛出异常。
+    #true：设置为该值后，Activiti会对数据库中所有的表进行更新，如果表不存在，则Activiti会自动创建。
+    #create-drop：Activiti启动时，会执行数据库表的创建操作，在Activiti关闭时，执行数据库表的删除操作。
+    #drop-create：Activiti启动时，执行数据库表的删除操作在Activiti关闭时，会执行数据库表的创建操作
+    database-schema-update: true
+    #保存历史数据级别设置为full最高级别，便于历史数据的追溯
+    #none：不保存任何的历史数据，因此，在流程执行过程中，这是最高效的。
+    #activity：级别高于none，保存流程实例与流程行为，其他数据不保存。
+    #audit：除activity级别会保存的数据外，还会保存全部的流程任务及其属性。audit为history的默认值。
+    #full：保存历史数据的最高级别，除了会保存audit级别的数据外，还会保存其他全部流程相关的细节数据，包括一些流程参数等。
+    history-level: full
+    #    process-definition-location-prefix: classpath:/bpmn/
+  main:
+    #当遇到同样名字的时候，是否允许覆盖注册
+    allow-bean-definition-overriding: true
+
+############################################# netty配置 ########################################################
+netty:
+  url: 127.0.0.1
+  port: 18000
+
+
+
+#mybatis-plus:
+#  global-config:
+#    #主键类型  0:"数据库ID自增", 1:"用户输入ID",2:"全局唯一ID (数字类型唯一ID)", 3:"全局唯一ID UUID";
+#    db-config:
+#      id-type: auto
+#  mapper-locations: classpath:/mapper/**/*.xml
+
+########################################################### SpringBoot配置#########################################
+# 在命名空间详情处可以获取到 endpoint 和 namespace 的值
+#nacos:
+#  config:
+#    namespace: 3e4661cf-7389-48a9-a02e-632b63c9565a
+  # 推荐使用 RAM 账户的 accessKey 和 secretKey
+#    server-addr: 127.0.0.1:8848
+#  discovery:
+#    server-addr: 127.0.0.1:8848
+#    namespace: 3e4661cf-7389-48a9-a02e-632b63c9565a
+
+########################################################### SpringClound配置#########################################
+#spring:
+#  main:
+#    allow-bean-definition-overriding: true
+#  application:
+#    name: app-ewallet-server
+#  cloud:
+#    #####  以下是nacos配置
+#    nacos:
+#      discovery:  # nacos注册中心
+#        server-addr: 192.168.13.131:8848
+#      config:   # nacos配置中心
+#        namespace: 965f8b38-0d06-479f-b130-f65d99e96cd7
+#        server-addr: 192.168.13.131:8848
+#        ext-config:   # 引入多配置文件，一个配置文件对应一个data-id，data-id必须带一个group
+#          - data-id: app-ewallet-server.yml
+#            group: DEFAULT_GROUP
+##          - data-id: rabbitmq.properties
+##            group: DEFAULT_GROUP

@@ -1,0 +1,16 @@
+spring:
+  rabbitmq:
+    #    host: 127.0.0.1
+    host: 192.168.159.138
+    port: 5672
+    username: admin
+    password: admin
+    #    并发量的配置 并发消费者的初始化值，并发消费者的最大值，每个消费者每次监听时可拉取处理的消息数量。
+    listener:
+      simple:
+        max-concurrency: 20
+        concurrency: 10
+      direct:
+        prefetch: 5
+    virtual-host: /
+    publisher-confirms: true

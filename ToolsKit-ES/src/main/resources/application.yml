@@ -1,0 +1,25 @@
+server:
+  port: 8000
+########################################################### SpringBoot配置#########################################
+spring:
+  http:
+    encoding:
+      enabled: true
+      charset: UTF-8
+      force: true
+  application:
+    name: ToolsKit-server
+  #    数据源
+  datasource:
+    url: jdbc:mysql://localhost:3306/vitea?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+############################################# ES配置 ########################################################
+  data:
+    elasticsearch:
+      cluster-name: docker-cluster
+      cluster-nodes: 192.168.159.138:9300
+      repositories:
+        enabled: true

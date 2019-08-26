@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ToolsKit.iml" filepath="$PROJECT_DIR$/ToolsKit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ToolsKit-Activiti/ToolsKit-Activiti.iml" filepath="$PROJECT_DIR$/ToolsKit-Activiti/ToolsKit-Activiti.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ToolsKit-Core/ToolsKit-Core.iml" filepath="$PROJECT_DIR$/ToolsKit-Core/ToolsKit-Core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ToolsKit-ES/ToolsKit-ES.iml" filepath="$PROJECT_DIR$/ToolsKit-ES/ToolsKit-ES.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ToolsKit-Quartz/ToolsKit-Quartz.iml" filepath="$PROJECT_DIR$/ToolsKit-Quartz/ToolsKit-Quartz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ToolsKit-RabbitMQ/ToolsKit-RabbitMQ.iml" filepath="$PROJECT_DIR$/ToolsKit-RabbitMQ/ToolsKit-RabbitMQ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ToolsKit-Netty/toolskit-Netty.iml" filepath="$PROJECT_DIR$/ToolsKit-Netty/toolskit-Netty.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ToolsKit-ES" />
+        <module name="ToolsKit-RabbitMQ" />
+        <module name="ToolsKit-Activiti" />
+        <module name="ToolsKit-Quartz" />
+        <module name="ToolsKit-Core" />
+        <module name="toolskit-Netty" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="es" target="1.8" />
+      <module name="ToolsKit" target="1.8" />
+      <module name="ToolsKit-Activiti" target="1.8" />
+      <module name="ToolsKit-Core" target="1.8" />
+      <module name="ToolsKit-ES" target="1.8" />
+      <module name="toolskit-Netty" target="1.8" />
+      <module name="ToolsKit-Quartz" target="1.8" />
+      <module name="ToolsKit-RabbitMQ" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ToolsKit" options="-parameters" />
+      <module name="ToolsKit-Activiti" options="-parameters" />
+      <module name="ToolsKit-Core" options="-parameters" />
+      <module name="ToolsKit-ES" options="-parameters" />
+      <module name="ToolsKit-Quartz" options="-parameters" />
+      <module name="ToolsKit-RabbitMQ" options="-parameters" />
+      <module name="es" options="-parameters" />
+      <module name="toolskit-Netty" options="-parameters" />
+    </option>
+  </component>
+</project>
