@@ -8,7 +8,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/toolskit-es/pom.xml" />
-        <option value="$PROJECT_DIR$/ToolsKit-Netty/pom.xml" />
+        <option value="$PROJECT_DIR$/ToolsKit-Activiti/pom.xml" />
+        <option value="$PROJECT_DIR$/ToolsKit-Activity/pom.xml" />
       </list>
     </option>
   </component>

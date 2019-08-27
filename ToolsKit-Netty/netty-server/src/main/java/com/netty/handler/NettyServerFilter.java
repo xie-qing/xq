@@ -1,4 +1,4 @@
-package com.xq.es.handler;
+package com.netty.handler;
 
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.socket.SocketChannel;

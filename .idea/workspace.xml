@@ -5,319 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e8b5c49-b45a-402f-99e0-9f73684b478b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_easyexcel_1_1_2_beta5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_carrotsearch_hppc_0_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_smile_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_spullara_mustache_java_compiler_0_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_tdunning_t_digest_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_java7_2_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_odysseus_juel_juel_api_2_2_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_odysseus_juel_juel_impl_2_2_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_odysseus_juel_juel_spi_2_2_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_36_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_34_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_bpmn_converter_6_0_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_bpmn_model_6_0_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_dmn_api_6_0_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_dmn_model_6_0_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_engine_6_0_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_form_api_6_0_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_form_model_6_0_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_image_generator_6_0_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_process_validation_6_0_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_spring_6_0_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_spring_boot_starter_basic_6_0_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_email_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_common_7_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_backward_codecs_7_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_core_7_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_grouping_7_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_highlighter_7_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_join_7_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_memory_7_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_misc_7_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queries_7_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queryparser_7_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_sandbox_7_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial3d_7_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_7_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_extras_7_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_suggest_7_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_elasticsearch_rest_client_6_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_transport_6_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_6_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_cli_6_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_core_6_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_secure_sm_6_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_x_content_6_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_jna_4_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_lang_mustache_client_6_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_parent_join_client_6_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_percolator_client_6_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_rank_eval_client_6_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_reindex_client_6_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_transport_netty4_client_6_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jyaml_jyaml_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_elasticsearch_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_quartz_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_elasticsearch_3_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Activiti/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Activiti/src/main/java/com/xq/activiti/ToolsKitActivirtiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Activiti/src/main/java/com/xq/activiti/config/ActivtiyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Activiti/src/main/java/com/xq/activiti/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Activiti/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Activiti/src/test/java/com/xq/es/ToolskitEsApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/ToolsKit-Core.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/comm/FastJsonRedisSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/comm/PageHelp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/comm/RedisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/comm/ResultDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/comm/ResultPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/comm/enumcode/CodeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/config/AsycTaskExecutorConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/config/MybatisPlusPageConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/config/SwaggerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/constant/ToolsKitConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/excel/Impl/EasyExcelImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/excel/Impl/ReadExcelServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/excel/ReadExcelMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/excel/ReadExcelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/excel/exception/ExcelException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/excel/model/ExcelModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/excel/utils/CellFontFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/excel/utils/CellStyleFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/excel/utils/ExcelListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/excel/utils/ExcelUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/excel/utils/ExcelWriterFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/excel/utils/MyBeanCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/excel/utils/MyStringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/excel/utils/WriterHandler07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/excel/utli/ExcelEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/exception/CustomizeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/generatercode/CodeGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/generatercode/CodeGeneratorAppMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/redis/config/RedissionConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/sign/CFCAUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/sign/MD5AndSHA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/sign/RSAP7SignMessageDetachDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/sign/TestRSA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/sign/test.pfx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-ES/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-ES/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-ES/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-ES/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-ES/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-ES/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-ES/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-ES/src/main/java/com/xq/es/ToolskitEsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-ES/src/main/java/com/xq/es/config/EsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-ES/src/main/java/com/xq/es/controller/UserEsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-ES/src/main/java/com/xq/es/dao/EsBlog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-ES/src/main/java/com/xq/es/dao/SerchLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-ES/src/main/java/com/xq/es/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-ES/src/main/java/com/xq/es/dao/UserEsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-ES/src/main/java/com/xq/es/service/UserEsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-ES/src/main/java/com/xq/es/service/impl/UserEsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-ES/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-ES/src/test/java/com/xq/es/ToolskitEsApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Netty/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Netty/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Netty/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Netty/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Netty/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Netty/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Netty/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Netty/src/main/java/com/xq/es/ToolskitNettyApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Netty/src/main/java/com/xq/es/config/NettyConfigProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Netty/src/main/java/com/xq/es/handler/NettyServerFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Netty/src/main/java/com/xq/es/handler/TextWebSocketFrameHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Netty/src/main/java/com/xq/es/service/NettyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Netty/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Netty/src/test/java/com/xq/es/ToolskitEsApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Quartz/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Quartz/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Quartz/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Quartz/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Quartz/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Quartz/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Quartz/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Quartz/src/main/java/com/xq/rabbitmq/ToolskitQuartzApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Quartz/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Quartz/src/test/java/com/xq/rabbitmq/ToolskitEsApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-RabbitMQ/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-RabbitMQ/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-RabbitMQ/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-RabbitMQ/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-RabbitMQ/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-RabbitMQ/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-RabbitMQ/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-RabbitMQ/src/main/java/com/xq/rabbitmq/TestUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-RabbitMQ/src/main/java/com/xq/rabbitmq/ToolskitRabbitMqApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-RabbitMQ/src/main/java/com/xq/rabbitmq/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-RabbitMQ/src/main/java/com/xq/rabbitmq/UserMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-RabbitMQ/src/main/java/com/xq/rabbitmq/config/RabbitMqConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-RabbitMQ/src/main/java/com/xq/rabbitmq/config/RabbitMqQueueConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-RabbitMQ/src/main/java/com/xq/rabbitmq/controller/HollerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-RabbitMQ/src/main/java/com/xq/rabbitmq/mqenum/QueueEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-RabbitMQ/src/main/java/com/xq/rabbitmq/service/HollerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-RabbitMQ/src/main/java/com/xq/rabbitmq/service/QueueServcie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-RabbitMQ/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-RabbitMQ/src/test/java/com/xq/rabbitmq/ToolskitEsApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Activiti/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Activiti/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Activiti/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Activiti/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.springBeans" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Activiti/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Activiti/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_logging_1_1_1__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToolsKit-Netty/netty-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToolsKit-Netty/netty-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToolsKit-Activiti/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToolsKit-Activiti/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToolsKit-Activiti/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToolsKit-Activity/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToolsKit-Activity/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToolsKit-Activity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Activity/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToolsKit-Core/ToolsKit-Core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Core/ToolsKit-Core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToolsKit-Core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToolsKit-Netty/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToolsKit-Netty/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToolsKit-Netty/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToolsKit-Netty/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToolsKit-Netty/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToolsKit-Netty/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToolsKit-Netty/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Netty/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToolsKit-Netty/src/main/java/com/xq/es/ToolskitNettyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Netty/netty-server/src/main/java/com/netty/NettyServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToolsKit-Netty/src/main/java/com/xq/es/config/NettyConfigProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Netty/netty-server/src/main/java/com/netty/config/NettyConfigProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToolsKit-Netty/src/main/java/com/xq/es/handler/NettyServerFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Netty/netty-server/src/main/java/com/netty/handler/NettyServerFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToolsKit-Netty/src/main/java/com/xq/es/handler/TextWebSocketFrameHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Netty/netty-server/src/main/java/com/netty/handler/TextWebSocketFrameHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToolsKit-Netty/src/main/java/com/xq/es/service/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Netty/netty-server/src/main/java/com/netty/service/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToolsKit-Netty/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Netty/netty-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToolsKit-Netty/src/test/java/com/xq/es/ToolskitEsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToolsKit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/ToolsKitApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/activiti/config/ActivtiyConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/activiti/controller/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/comm/FastJsonRedisSerializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/comm/PageHelp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/comm/RedisService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/comm/ResultDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/comm/ResultPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/comm/enumcode/CodeEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/config/AsycTaskExecutorConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/config/MybatisPlusPageConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/config/RedisConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/config/SwaggerConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/constant/ToolsKitConstant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/es/config/EsConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/es/controller/UserEsController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/es/dao/EsBlog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/es/dao/SerchLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/es/dao/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/es/dao/UserEsDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/es/service/UserEsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/es/service/impl/UserEsServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/excel/Impl/EasyExcelImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/excel/Impl/ReadExcelServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/excel/ReadExcelMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/excel/ReadExcelService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/excel/exception/ExcelException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/excel/model/ExcelModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/excel/utils/CellFontFormat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/excel/utils/CellStyleFormat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/excel/utils/ExcelListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/excel/utils/ExcelUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/excel/utils/ExcelWriterFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/excel/utils/MyBeanCopy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/excel/utils/MyStringUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/excel/utils/WriterHandler07.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/excel/utli/ExcelEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/exception/CustomizeException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/generatercode/CodeGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/generatercode/CodeGeneratorAppMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/netty/config/NettyConfigProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/netty/handler/NettyServerFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/netty/handler/TextWebSocketFrameHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/netty/service/NettyServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/rabbitmq/TestUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/rabbitmq/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/rabbitmq/UserMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/rabbitmq/config/RabbitMqConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/rabbitmq/config/RabbitMqQueueConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/rabbitmq/controller/HollerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/rabbitmq/mqenum/QueueEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/rabbitmq/service/HollerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/rabbitmq/service/QueueServcie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/redis/config/RedissionConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/sign/CFCAUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/sign/MD5AndSHA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/sign/RSAP7SignMessageDetachDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/sign/TestRSA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tools/sign/test.pfx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/lib/PaperlessClient-3.6.6.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/resources/lib/PaperlessClient-3.6.6.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/lib/SADK-3.3.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/resources/lib/SADK-3.3.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/lib/commons-logging-1.1.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/resources/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/lib/httpclient-4.5.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/resources/lib/httpclient-4.5.3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/lib/httpcore-4.4.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/resources/lib/httpcore-4.4.6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/lib/logback-cfca-jdk1.6-3.2.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/resources/lib/logback-cfca-jdk1.6-3.2.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/model/test1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/resources/model/test1.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/leave.bpmn20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Activiti/src/main/resources/processes/leave.bpmn20.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/vitea.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/resources/sql/vitea.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vm/controller.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/resources/vm/controller.java.vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vm/entity.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/resources/vm/entity.java.vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vm/entity.kt.vm" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/resources/vm/entity.kt.vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vm/exception.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/resources/vm/exception.java.vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vm/mapper.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/resources/vm/mapper.java.vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vm/mapper.xml.vm" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/resources/vm/mapper.xml.vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vm/request.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/resources/vm/request.java.vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vm/service.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/resources/vm/service.java.vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vm/serviceImpl.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/resources/vm/serviceImpl.java.vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tools/ToolsKitApplicationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tools/es/entity/SerchLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tools/es/service/impl/UserEsServiceImplTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lib/PaperlessClient-3.6.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lib/SADK-3.3.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lib/commons-logging-1.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lib/httpclient-4.5.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lib/httpcore-4.4.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lib/logback-cfca-jdk1.6-3.2.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/test1.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/vm/controller.java.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/vm/entity.java.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/vm/entity.kt.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/vm/exception.java.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/vm/mapper.java.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/vm/mapper.xml.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/vm/request.java.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/vm/service.java.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/vm/serviceImpl.java.vm" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -350,7 +73,239 @@
     <select />
   </component>
   <component name="FavoritesManager">
-    <favorites_list name="ToolsKit" />
+    <favorites_list name="ToolsKit">
+      <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity" module="ToolsKit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src" module="ToolsKit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main" module="ToolsKit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/java" module="ToolsKit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/java/com" module="ToolsKit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/java/com/xq" module="ToolsKit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/java/com/xq/activiti" module="ToolsKit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/java/com/xq/activiti/config" module="ToolsKit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                      <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/java/com/xq/activiti/config/ActivtiyConfig.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    </favorite_root>
+                    <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/java/com/xq/activiti/controller" module="ToolsKit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                      <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/java/com/xq/activiti/controller/TestController.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    </favorite_root>
+                    <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/java/com/xq/activiti/ToolsKitActivirtiApplication.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                </favorite_root>
+              </favorite_root>
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/resources" module="ToolsKit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/resources/processes" module="ToolsKit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/resources/processes/leave.bpmn20.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/resources/application.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/test" module="ToolsKit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/test/java" module="ToolsKit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/test/java/com" module="ToolsKit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/test/java/com/xq" module="ToolsKit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/test/java/com/xq/es" module="ToolsKit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/test/java/com/xq/es/ToolskitEsApplicationTests.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                </favorite_root>
+              </favorite_root>
+            </favorite_root>
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.mvn" module="ToolsKit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.mvn/wrapper" module="ToolsKit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.mvn/wrapper/maven-wrapper.jar" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.mvn/wrapper/maven-wrapper.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.mvn/wrapper/MavenWrapperDownloader.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/mvnw" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/HELP.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/pom.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/mvnw.cmd" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.gitignore" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/toolskit-es.iml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/ToolsKit-Activiti.iml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/ToolsKit-Activity.iml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/ToolsKit-Activity (1).iml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+      <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity" module="actity" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src" module="actity" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main" module="actity" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/java" module="actity" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/java/com" module="actity" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/java/com/xq" module="actity" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/java/com/xq/actity" module="actity" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/java/com/xq/actity/config" module="actity" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                      <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/java/com/xq/actity/config/ActivtiyConfig.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    </favorite_root>
+                    <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/java/com/xq/actity/controller" module="actity" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                      <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/java/com/xq/actity/controller/TestController.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    </favorite_root>
+                    <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/java/com/xq/actity/ActityApplication.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                </favorite_root>
+              </favorite_root>
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/resources" module="actity" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/resources/bpmn" module="actity" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/resources/bpmn/leave.bpmn" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/resources/bpmn/leave.bpmn20.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/resources/docker" module="actity" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/resources/docker/Dockerfile" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/resources/mapper" module="actity" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/resources/static" module="actity" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/resources/processes" module="actity" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/resources/processes/leave.bpmn20.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/resources/templates" module="actity" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/resources/application.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/resources/mybatis-config.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/main/resources/application-dev.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/test" module="actity" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/test/java" module="actity" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/test/java/com" module="actity" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/test/java/com/xq" module="actity" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/test/java/com/xq/actity" module="actity" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/src/test/java/com/xq/actity/ActityApplicationTests.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                </favorite_root>
+              </favorite_root>
+            </favorite_root>
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.mvn" module="actity" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.mvn/wrapper" module="actity" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.mvn/wrapper/maven-wrapper.jar" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.mvn/wrapper/maven-wrapper.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.mvn/wrapper/MavenWrapperDownloader.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/mvnw" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea" module="actity" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/misc.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries" module="actity" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__junit_junit_4_12.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__net_sf_trove4j_core_3_1_0.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_mybatis_mybatis_3_5_2.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__joda_time_joda_time_2_10_3.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__com_alibaba_fastjson_1_2_57.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_2.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__commons_pool_commons_pool_1_6.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__de_odysseus_juel_juel_api_2_2_7.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__de_odysseus_juel_juel_spi_2_2_7.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__io_netty_netty_all_4_1_36_Final.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_16.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_26.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__de_odysseus_juel_juel_impl_2_2_7.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_2.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_17.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_2_0.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_apache_commons_commons_email_1_4.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_16.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_activiti_activiti_engine_6_0_0_RC1.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_activiti_activiti_spring_6_0_0_RC1.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_10.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_activiti_activiti_dmn_api_6_0_0_RC1.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_activiti_activiti_form_api_6_0_0_RC1.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_activiti_activiti_dmn_model_6_0_0_RC1.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_activiti_activiti_bpmn_model_6_0_0_RC1.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_activiti_activiti_form_model_6_0_0_RC1.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_springframework_spring_tx_5_1_9_RELEASE.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_9_RELEASE.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_springframework_spring_orm_5_1_9_RELEASE.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_springframework_spring_web_5_1_9_RELEASE.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_springframework_spring_core_5_1_9_RELEASE.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_9_RELEASE.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_springframework_spring_test_5_1_9_RELEASE.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_activiti_activiti_bpmn_converter_6_0_0_RC1.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_22.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_springframework_spring_beans_5_1_9_RELEASE.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_activiti_activiti_image_generator_6_0_0_RC1.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_9_RELEASE.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_22.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_springframework_spring_context_5_1_9_RELEASE.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_activiti_activiti_process_validation_6_0_0_RC1.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_7_RELEASE.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_springframework_spring_expression_5_1_9_RELEASE.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_22.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_7_RELEASE.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_activiti_activiti_spring_boot_starter_basic_6_0_0_RC1.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_0.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_7_RELEASE.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_7_RELEASE.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_7_RELEASE.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_0.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_7_RELEASE.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_7_RELEASE.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_7_RELEASE.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_7_RELEASE.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_7_RELEASE.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_7_RELEASE.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_7_RELEASE.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_1_7_RELEASE.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/dataSources" module="actity" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/dataSources/a094cbda-884c-4ad8-beb6-a4cd10abba5e.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/modules.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/compiler.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/encodings.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/workspace.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/dataSources.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/inspectionProfiles" module="actity" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/inspectionProfiles/Project_Default.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.idea/dataSources.local.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/HELP.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/pom.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/mvnw.cmd" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/.gitignore" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/ToolsKit-Activity/actity.iml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+    </favorites_list>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -404,8 +359,8 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563961455904" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com/tools/es" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ToolsKit-Core/src/main/resources" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/ToolsKit-Core/src/main/java/com/xq" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ToolsKit-Netty/netty-server/src/main/java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -420,27 +375,36 @@
     <property name="settings.editor.selected.configurable" value="spring.boot" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.tools.es.entity" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.tools" />
       <recent name="com.tools.es.service.impl" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.xq.rabbitmq" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\XQ\works\ToolsKit\ToolsKit-Netty\netty-server\src\main\java" />
+      <recent name="D:\XQ\works\ToolsKit" />
+      <recent name="D:\XQ\works\ToolsKit\ToolsKit-Core\src\main\resources" />
+      <recent name="D:\XQ\works\ToolsKit\ToolsKit-Core\src\main\java" />
+      <recent name="D:\XQ\works\ToolsKit\ToolsKit-ES\src\main\java\com\xq\es" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xq.sign" />
       <recent name="exception" />
       <recent name="constant" />
       <recent name="com.tools.config" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\XQ\works\ToolsKit\ToolsKit-Core\src\main\resources" />
-      <recent name="D:\XQ\works\ToolsKit\ToolsKit-Core\src\main\java" />
-      <recent name="D:\XQ\works\ToolsKit\ToolsKit-ES\src\main\java\com\xq\es" />
-      <recent name="D:\XQ\works\ToolsKit\ToolsKit-RabbitMQ\src\main\java\com\xq\toolskites" />
-      <recent name="D:\XQ\works\ToolsKit\ToolsKit-Activiti\src\main\resources" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.tools.es.entity" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\XQ\works\ToolsKit\ToolsKit-Netty\netty-server\src\main\resources" />
+      <recent name="D:\XQ\works\ToolsKit\ToolsKit-Activity\src\main\java\com\xq\activiti\controller" />
+      <recent name="D:\XQ\works\ToolsKit\ToolsKit-Core\src\main\java\com\xq\sign" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -448,10 +412,6 @@
       <expand>
         <path>
           <item name="Found 4 services " type="fcff1e1b:RestServiceStructure$RootNode" />
-        </path>
-        <path>
-          <item name="Found 4 services " type="fcff1e1b:RestServiceStructure$RootNode" />
-          <item name="ToolsKit" type="c588b436:RestServiceStructure$ProjectNode" />
         </path>
       </expand>
       <select />
@@ -474,7 +434,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ToolsKitApplication">
+  <component name="RunManager" selected="Spring Boot.NettyServerApplication">
     <configuration name="CodeGeneratorAppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tools.generatercode.CodeGeneratorAppMain" />
       <module name="ToolsKit" />
@@ -514,43 +474,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tools.rabbitmq.UserMain" />
-      <module name="ToolsKit" />
+    <configuration name="ActityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ToolsKit-Activity" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xq.actity.ActityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="netty-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tools.rabbitmq.*" />
+          <option name="PATTERN" value="com.netty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="es" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xq.es.EsApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ToolsKitActivirtiApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="ToolsKit-Activiti" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xq.es.ToolsKitActivirtiApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ToolsKitActivirtiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="ToolsKit-Activiti" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xq.netty.ToolsKitActivirtiApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ToolsKitApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="ToolsKit" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tools.ToolsKitApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.netty.NettyServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -562,33 +501,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToolskitNettyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="toolskit-Netty" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xq.es.ToolskitNettyApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ToolskitQuartzApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="ToolskitQuartzApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ToolsKit-Quartz" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xq.es.ToolskitQuartzApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xq.rabbitmq.ToolskitQuartzApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ToolskitRabbitMqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ToolsKit-RabbitMQ" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xq.es.ToolskitRabbitMqApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xq.rabbitmq.ToolskitRabbitMqApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.NettyServerApplication" />
         <item itemvalue="Application.MD5AndSHA" />
         <item itemvalue="Application.TestRSA" />
         <item itemvalue="Application.CodeGeneratorAppMain" />
-        <item itemvalue="Application.UserMain" />
       </list>
     </recent_temporary>
   </component>
@@ -599,7 +531,7 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7b4d1ddc" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@6818d324" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -652,7 +584,8 @@
       <workItem from="1566184617343" duration="3453000" />
       <workItem from="1566288297767" duration="2510000" />
       <workItem from="1566786995864" duration="599000" />
-      <workItem from="1566790870275" duration="6381000" />
+      <workItem from="1566790870275" duration="10510000" />
+      <workItem from="1566888020209" duration="8432000" />
     </task>
     <task id="LOCAL-00001" summary="rabbitmq">
       <created>1561455127606</created>
@@ -724,7 +657,21 @@
       <option name="project" value="LOCAL" />
       <updated>1566288819142</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="案例划分">
+      <created>1566809026886</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1566809026886</updated>
+    </task>
+    <task id="LOCAL-00012" summary="案例划分">
+      <created>1566893385738</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1566893385738</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -751,7 +698,8 @@
     <MESSAGE value="ES操作" />
     <MESSAGE value="redission分布式锁" />
     <MESSAGE value="activiti流程" />
-    <option name="LAST_COMMIT_MESSAGE" value="activiti流程" />
+    <MESSAGE value="案例划分" />
+    <option name="LAST_COMMIT_MESSAGE" value="案例划分" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="XDebuggerManager">

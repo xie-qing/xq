@@ -1,7 +1,7 @@
-package com.xq.es.service;
+package com.netty.service;
 
-import com.tools.netty.config.NettyConfigProperties;
-import com.tools.netty.handler.NettyServerFilter;
+import com.netty.config.NettyConfigProperties;
+import com.netty.handler.NettyServerFilter;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.EventLoopGroup;

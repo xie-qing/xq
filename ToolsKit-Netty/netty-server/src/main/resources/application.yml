@@ -2,3 +2,6 @@
 netty:
   url: 127.0.0.1
   port: 18000
+
+server:
+  port: 19003

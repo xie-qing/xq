@@ -3,12 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ToolsKit.iml" filepath="$PROJECT_DIR$/ToolsKit.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ToolsKit-Activiti/ToolsKit-Activiti.iml" filepath="$PROJECT_DIR$/ToolsKit-Activiti/ToolsKit-Activiti.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ToolsKit-Activity/ToolsKit-Activity.iml" filepath="$PROJECT_DIR$/ToolsKit-Activity/ToolsKit-Activity.iml" />
       <module fileurl="file://$PROJECT_DIR$/ToolsKit-Core/ToolsKit-Core.iml" filepath="$PROJECT_DIR$/ToolsKit-Core/ToolsKit-Core.iml" />
       <module fileurl="file://$PROJECT_DIR$/ToolsKit-ES/ToolsKit-ES.iml" filepath="$PROJECT_DIR$/ToolsKit-ES/ToolsKit-ES.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ToolsKit-Netty/ToolsKit-Netty.iml" filepath="$PROJECT_DIR$/ToolsKit-Netty/ToolsKit-Netty.iml" />
       <module fileurl="file://$PROJECT_DIR$/ToolsKit-Quartz/ToolsKit-Quartz.iml" filepath="$PROJECT_DIR$/ToolsKit-Quartz/ToolsKit-Quartz.iml" />
       <module fileurl="file://$PROJECT_DIR$/ToolsKit-RabbitMQ/ToolsKit-RabbitMQ.iml" filepath="$PROJECT_DIR$/ToolsKit-RabbitMQ/ToolsKit-RabbitMQ.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ToolsKit-Netty/toolskit-Netty.iml" filepath="$PROJECT_DIR$/ToolsKit-Netty/toolskit-Netty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ToolsKit-Netty/netty-client/netty-client.iml" filepath="$PROJECT_DIR$/ToolsKit-Netty/netty-client/netty-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ToolsKit-Netty/netty-server/netty-server.iml" filepath="$PROJECT_DIR$/ToolsKit-Netty/netty-server/netty-server.iml" />
     </modules>
   </component>
 </project>

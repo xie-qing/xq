@@ -1,4 +1,4 @@
-package com.xq.es.config;
+package com.netty.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
