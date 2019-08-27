@@ -1,8 +1,9 @@
 package com.xq.es.service;
 
-import com.tools.comm.ResultDB;
-import com.tools.es.dao.EsBlog;
-import com.tools.es.dao.SerchLog;
+
+import com.xq.comm.ResultDB;
+import com.xq.es.dao.EsBlog;
+import com.xq.es.dao.SerchLog;
 
 /**
  * @author xq

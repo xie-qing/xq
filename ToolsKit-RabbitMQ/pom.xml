@@ -8,9 +8,9 @@
         <version>0.0.1-SNAPSHOT</version><!-- lookup parent from repository -->
     </parent>
     <groupId>com.xq</groupId>
-    <artifactId>toolskit-es</artifactId>
+    <artifactId>toolskit-rebbttmq</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>toolskit-es</name>
+    <name>ToolsKit-RabbitMQ</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

@@ -1,11 +1,11 @@
 package com.xq.es.service.impl;
 
 import com.google.common.collect.Lists;
-import com.tools.comm.ResultDB;
-import com.tools.es.dao.EsBlog;
-import com.tools.es.dao.SerchLog;
-import com.tools.es.dao.UserDao;
-import com.tools.es.service.UserEsService;
+import com.xq.comm.ResultDB;
+import com.xq.es.dao.EsBlog;
+import com.xq.es.dao.SerchLog;
+import com.xq.es.dao.UserDao;
+import com.xq.es.service.UserEsService;
 import org.elasticsearch.index.query.QueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.springframework.beans.factory.annotation.Autowired;

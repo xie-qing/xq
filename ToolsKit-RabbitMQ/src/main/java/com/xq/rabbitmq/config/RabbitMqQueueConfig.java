@@ -1,6 +1,6 @@
 package com.xq.rabbitmq.config;
 
-import com.tools.rabbitmq.mqenum.QueueEnum;
+import com.xq.rabbitmq.mqenum.QueueEnum;
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
 import org.springframework.amqp.core.DirectExchange;

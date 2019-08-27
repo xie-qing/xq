@@ -1,0 +1,45 @@
+package ${package.ServiceImpl};
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import org.springframework.beans.BeanUtils;
+import ${cfg.ExceptionPak}.${entity}Exception;
+import ${package.Entity}.${entity};
+import ${package.Controller}.request.${entity}Request;
+import ${package.Mapper}.${table.mapperName};
+import ${package.Service}.${table.serviceName};
+import ${superServiceImplClassPackage};
+/**
+ * <p>
+ * $!{table.comment} 服务实现类
+ * </p>
+ *
+ * @author ${author}
+ * @since ${date}
+ */
+@Service
+@Transactional
+public class ${table.serviceImplName} extends ${superServiceImplClass}<${table.mapperName}, ${entity}> implements ${table.serviceName} {
+
+
+    @Autowired
+    ${table.mapperName} ${table.entityPath}Mapper;
+    /**
+     * 	添加信息
+     * @param ${table.entityPath}Request  添加的实体类
+     */
+    @Override
+    public ${entity} save${entity}(${entity}Request ${table.entityPath}Request){
+        ${entity} old${entity} = ${table.entityPath}Mapper.selectOne(new QueryWrapper(${table.entityPath}Request));
+        if(old${entity} != null){
+            throw new ${entity}Exception("503" ,"该数据已经存在！");
+        }
+        ${entity} new${entity} = new ${entity}();
+        BeanUtils.copyProperties(${table.entityPath}Request , new${entity});
+        ${table.entityPath}Mapper.insert(new${entity});
+        return new${entity};
+    }
+
+}

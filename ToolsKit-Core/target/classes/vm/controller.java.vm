@@ -1,0 +1,163 @@
+package ${package.Controller};
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.*;
+
+import io.swagger.annotations.*;
+import javax.validation.constraints.NotNull;
+import java.io.Serializable;
+
+import java.util.List;
+import com.tools.comm.ResultDB;
+import com.tools.comm.*;
+
+#if(${restControllerStyle})
+
+#else
+#end
+#if(${superControllerClassPackage})
+import  ${superControllerClassPackage};
+#end
+import ${package.Service}.${table.serviceName};
+import ${package.Entity}.${entity};
+import ${package.Controller}.request.${entity}Request;
+
+/**
+ *
+ * @author ${author}
+ * @since ${date}
+ */
+
+@RestController
+@Validated
+@RequestMapping("/#if($!{controllerMappingHyphenStyle})$!{controllerMappingHyphen}#else$!{table.entityPath}#end")
+@Api(value = "$!{table.comment}管理" , tags = "$!{table.comment}管理")
+#if(${superControllerClass})
+public class $!{table.controllerName} {
+#else
+public class $!{table.controllerName} extends ResultPage<${entity}> implements Serializable{
+#end
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+    private final Logger logger = LoggerFactory.getLogger(${table.controllerName}.class);
+
+    @Autowired
+    public ${table.serviceName} i${entity}Service;
+
+    /**
+     * 	跳转列表页面
+     * @return
+     */
+    @GetMapping ("/$!{table.entityPath}Index")
+    public String index() {
+        return "$!{table.entityPath}ListIndex";
+    }
+
+    /**
+     * 	根据id查询对象
+     * @param id  实体ID
+     * @return ResultDB 结果集 error 失败  success 成功
+     */
+    @ApiOperation(value = "根据id查询$!{table.comment}信息")
+    @GetMapping("/{id}")
+    public ResultDB get$!{entity}ByID(@PathVariable @NotNull(message = "id不能为空") Integer id){
+        $!{entity} ${table.entityPath} = i$!{entity}Service.getById(id);
+        if($!{table.entityPath} == null){
+            return ResultDB.error("查询失败，该数据已被删除或无该数据！");
+        }
+        return ResultDB.success("查询成功！" , ${table.entityPath});
+    }
+
+    /**
+     * 	分页查询数据
+     * @param page  分页信息
+     * @return ResultDB
+     */
+
+    @ApiOperation(value = "根据分页查询条件查询$!{table.comment}信息")
+    @PostMapping("/get${entity}PageList")
+    public ResultDB get${entity}List(@RequestBody @Validated PageHelp<${entity}> page) {
+        IPage<${entity}> lists = i${entity}Service.page(getPage(page), getWrapper(page));
+        if(lists == null){
+            logger.error("==========>" + lists);
+            return ResultDB.error("无查询记录！");
+
+        }
+        return ResultDB.success("查询成功", lists);
+    }
+
+    /**
+     * 	修改数据
+     * @param ${table.entityPath}  实体类
+     * @return ResultDB
+     */
+    @ApiOperation(value = "修改${table.entityPath}信息")
+    @PutMapping("/$!{table.entityPath}Update")
+    public ResultDB $!{table.entityPath}Update(@RequestBody @Validated $!{entity} $!{table.entityPath}) {
+        $!{entity} old${table.entityPath} = i${entity}Service.getById($!{table.entityPath}.getId());
+        if(old$!{table.entityPath} == null){
+            return ResultDB.error("无该数据或已被删除");
+        }
+        i${entity}Service.saveOrUpdate(${table.entityPath});
+        return ResultDB.success("修改成功" , ${table.entityPath});
+    }
+
+    /**
+     * 	保存和修改公用的
+     * @param ${table.entityPath}Request  传递的实体
+     * @return  error 失败  success 成功
+     */
+
+    @ApiOperation(value = "添加${table.entityPath}信息")
+    @PostMapping("/")
+    public ResultDB ${table.entityPath}Save(@RequestBody @Validated ${entity}Request ${table.entityPath}Request) {
+        ${entity} old${entity} = i${entity}Service.getById(${table.entityPath}Request);
+        if(old${entity} == null){
+            return ResultDB.error("无该数据或已被删除");
+        }
+        ${entity} new${table.entityPath} =  i${entity}Service.save${entity}(${table.entityPath}Request);
+        return ResultDB.success("添加成功！" , new${table.entityPath});
+    }
+
+    /**
+     * 	根据id删除对象
+     * @param id  实体ID
+     * @return error 失败  success 成功
+     */
+    @ApiOperation(value = "删除信息")
+    @DeleteMapping("/{id}")
+    public ResultDB ${table.entityPath}DeleteByID(@PathVariable @NotNull(message = "id不能为空") Integer id){
+        ${entity} ${table.entityPath} = i${entity}Service.getById(id);
+        if(${table.entityPath} == null){
+            return ResultDB.error("删除失败，该数据已被删除或无该数据！");
+        }
+        i${entity}Service.removeById(id);
+        return ResultDB.success("删除成功！" , ${table.entityPath});
+    }
+
+    /**
+     * 	批量删除对象
+     * @param ids 实体集合ID
+     * @return  error 失败  success 成功
+     */
+
+    @ApiOperation(value = "批量删除数据")
+    @PostMapping("/${table.entityPath}BatchDelete")
+    public ResultDB deleteBatchIds(@RequestBody @Validated List<Long> ids){
+        if(ids.size() < 1 ){
+            ResultDB.error("删除失败，该数据已被删除或无该数据！");
+        }
+        i${entity}Service.removeByIds(ids);
+        return ResultDB.success("删除成功！" ,ids);
+    }
+
+
+}

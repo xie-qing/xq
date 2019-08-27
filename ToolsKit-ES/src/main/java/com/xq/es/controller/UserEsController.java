@@ -1,9 +1,10 @@
 package com.xq.es.controller;
 
-import com.tools.comm.ResultDB;
-import com.tools.es.dao.EsBlog;
-import com.tools.es.dao.SerchLog;
-import com.tools.es.service.UserEsService;
+
+import com.xq.comm.ResultDB;
+import com.xq.es.dao.EsBlog;
+import com.xq.es.dao.SerchLog;
+import com.xq.es.service.UserEsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;

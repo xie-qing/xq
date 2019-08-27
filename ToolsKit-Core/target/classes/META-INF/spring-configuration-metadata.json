@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "spring.redis",
+      "type": "com.xq.config.RedissionConfig",
+      "sourceType": "com.xq.config.RedissionConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.redis.host",
+      "type": "java.lang.String",
+      "sourceType": "com.xq.config.RedissionConfig"
+    },
+    {
+      "name": "spring.redis.password",
+      "type": "java.lang.String",
+      "sourceType": "com.xq.config.RedissionConfig"
+    },
+    {
+      "name": "spring.redis.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.xq.config.RedissionConfig",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}

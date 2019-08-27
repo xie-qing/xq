@@ -1,8 +1,8 @@
 package com.xq.rabbitmq.controller;
 
-import com.tools.comm.RedisService;
-import com.tools.rabbitmq.User;
-import com.tools.rabbitmq.service.QueueServcie;
+import com.xq.rabbitmq.model.User;
+import com.xq.rabbitmq.service.QueueServcie;
+import com.xq.comm.RedisService;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,0 +1,88 @@
+server:
+  port: 8000
+  ########################################################### SpringBoot配置#########################################
+spring:
+#  http:
+#    encoding:
+#      enabled: true
+#      charset: UTF-8
+#      force: true
+  application:
+    name: ToolsKit-server
+##    数据源
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/vitea?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+#    username: root
+#    password: root
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    type: com.alibaba.druid.pool.DruidDataSource
+##    RebbitMq
+#  rabbitmq:
+#    host: 127.0.0.1
+#    port: 5672
+#    username: admin
+#    password: admin
+##    并发量的配置 并发消费者的初始化值，并发消费者的最大值，每个消费者每次监听时可拉取处理的消息数量。
+#    listener:
+#      simple:
+#        max-concurrency: 20
+#        concurrency: 10
+#      direct:
+#        prefetch: 5
+#    virtual-host: /
+#    publisher-confirms: true
+#    #    redis
+#  redis:
+#    host: 127.0.0.1
+##    password: 123456
+#    port: 6379
+#    timeout: 6000
+#    database: 1
+#    lettuce:
+#      pool:
+#        max-active: 10 # 连接池最大连接数（使用负值表示没有限制）,如果赋值为-1，则表示不限制；如果pool已经分配了maxActive个jedis实例，则此时pool的状态为exhausted(耗尽)
+#        max-idle: 8   # 连接池中的最大空闲连接 ，默认值也是8
+#        max-wait: 100 # # 等待可用连接的最大时间，单位毫秒，默认值为-1，表示永不超时。如果超过等待时间，则直接抛出JedisConnectionException
+#        min-idle: 2    # 连接池中的最小空闲连接 ，默认值也是0
+#      shutdown-timeout: 100ms
+
+#mybatis-plus:
+#  global-config:
+#    #主键类型  0:"数据库ID自增", 1:"用户输入ID",2:"全局唯一ID (数字类型唯一ID)", 3:"全局唯一ID UUID";
+#    db-config:
+#      id-type: auto
+#  mapper-locations: classpath:/mapper/**/*.xml
+
+########################################################### SpringBoot配置#########################################
+# 在命名空间详情处可以获取到 endpoint 和 namespace 的值
+nacos:
+  config:
+    namespace: 3e4661cf-7389-48a9-a02e-632b63c9565a
+  # 推荐使用 RAM 账户的 accessKey 和 secretKey
+    server-addr: 127.0.0.1:8848
+#  discovery:
+#    server-addr: 127.0.0.1:8848
+#    namespace: 3e4661cf-7389-48a9-a02e-632b63c9565a
+
+########################################################### SpringClound配置#########################################
+#spring:
+#  main:
+#    allow-bean-definition-overriding: true
+#  application:
+#    name: app-ewallet-server
+#  cloud:
+#    #####  以下是nacos配置
+#    nacos:
+#      discovery:  # nacos注册中心
+#        server-addr: 192.168.13.131:8848
+#      config:   # nacos配置中心
+#        namespace: 965f8b38-0d06-479f-b130-f65d99e96cd7
+#        server-addr: 192.168.13.131:8848
+#        ext-config:   # 引入多配置文件，一个配置文件对应一个data-id，data-id必须带一个group
+#          - data-id: app-ewallet-server.yml
+#            group: DEFAULT_GROUP
+##          - data-id: rabbitmq.properties
+##            group: DEFAULT_GROUP
+mybatis:
+  config-location: classpath:mybatis-config.xml
+  mapper-locations: classpath:mapper/*.xml

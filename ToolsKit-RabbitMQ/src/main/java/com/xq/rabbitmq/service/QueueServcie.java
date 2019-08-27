@@ -1,8 +1,8 @@
 package com.xq.rabbitmq.service;
 
 import com.alibaba.fastjson.JSON;
-import com.tools.comm.RedisService;
-import com.tools.rabbitmq.User;
+import com.xq.rabbitmq.model.User;
+import com.xq.comm.RedisService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.annotation.RabbitHandler;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
