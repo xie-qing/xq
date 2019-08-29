@@ -11,6 +11,8 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
+
 /**
  * @author admin3
  */
@@ -25,7 +27,7 @@ public class NettyServer {
     @Autowired
     NettyConfigProperties nettyConfigProperties;
 
-    @Autowired
+    @Resource
     NettyServerFilter nettyServerFilter;
 
     public void start() {
@@ -37,6 +39,8 @@ public class NettyServer {
             // 服务器绑定端口监听
             ChannelFuture channelFuture = serverBootstrap.bind(nettyConfigProperties.getPort()).sync();
             log.info("\n 服务器监听端口为： " + nettyConfigProperties.getPort());
+//            channelFuture.channel().writeAndFlush("safdjshajk");
+
             // 监听服务器关闭监听
             channelFuture.channel().closeFuture().sync();
         }catch (Exception e){
