@@ -1,5 +1,6 @@
 package com.xq.rabbitmq.config;
 
+import com.xq.rabbitmq.mqenum.ExchangeEnum;
 import com.xq.rabbitmq.mqenum.QueueEnum;
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
@@ -24,11 +25,19 @@ public class RabbitMqQueueConfig {
 	}
 
 	/**
-	 * 交换器
+	 * 消息队列
+	 */
+	@Bean
+	public Queue getUserQueue() {
+		return new Queue(QueueEnum.USER_REGISTER.getQueue());
+	}
+
+	/**
+	 * 用户交换器
 	 */
 	@Bean
 	public DirectExchange getDirectExchange() {
-		return new DirectExchange("DirectExchange_Holle" ,true ,false);
+		return new DirectExchange(ExchangeEnum.USER_REGISTER.getValue(),true ,false);
 	}
 
 	/**
@@ -36,7 +45,7 @@ public class RabbitMqQueueConfig {
 	 */
 	@Bean
 	public Binding getBinding() {
-		return BindingBuilder.bind(getQueue()).to(getDirectExchange()).with("Binding_Holle");
+		return BindingBuilder.bind(getUserQueue()).to(getDirectExchange()).with(QueueEnum.USER_REGISTER.getRoutingKey());
 	}
 
 }

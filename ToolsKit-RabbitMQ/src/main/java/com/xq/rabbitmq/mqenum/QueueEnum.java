@@ -6,10 +6,11 @@ package com.xq.rabbitmq.mqenum;
 
 public enum QueueEnum {
 
-    QUEUE_HOLLE("QUEUE_HOLLE", "测试通道");
+    QUEUE_HOLLE("QUEUE_HOLLE", "QUEUE_HOLLE.routingKey"),
+    USER_REGISTER("user.register.topic.queue" , "user.register.routingKey");
 
     String queue;
-    String queueName;
+    String routingKey;
 
     private QueueEnum() {
     }
@@ -18,9 +19,9 @@ public enum QueueEnum {
         this.queue = queue;
     }
 
-    private QueueEnum(String queue, String queueName) {
+    private QueueEnum(String queue, String routingKey) {
         this.queue = queue;
-        this.queueName = queueName;
+        this.routingKey = routingKey;
     }
 
     public String getQueue() {
@@ -31,12 +32,11 @@ public enum QueueEnum {
         this.queue = queue;
     }
 
-    public String getQueueName() {
-        return queueName;
+    public String getRoutingKey() {
+        return routingKey;
     }
 
-    public void setQueueName(String queueName) {
-        this.queueName = queueName;
+    public void setRoutingKey(String routingKey) {
+        this.routingKey = routingKey;
     }
-
 }
