@@ -41,7 +41,7 @@ public class TextWebSocketFrameHandler extends ChannelInboundHandlerAdapter {
      */
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
-        log.info(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()) + " 服务端接收到消息：" + ctx.channel().remoteAddress() + msg);
+        log.info(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()) + " 服务端接收到" + ctx.channel().remoteAddress() + "消息：" + msg);
         //通知客户端链消息发送成功
         String str = ctx.channel().remoteAddress() + "说：" + new Date() + " " + msg + "\r\n";
 

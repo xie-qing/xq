@@ -14,6 +14,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
+import java.io.IOException;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
@@ -45,38 +46,44 @@ public class NettyClient {
     @Resource
     SendMsg sendMsg;
 
+    ChannelFuture channelFuture;
+
 
     public void start() {
-        ChannelFuture f = null;
-        boolean initFalg = true;
         try {
-            if (bootstrap != null) {
-                bootstrap.group(boos);
-                bootstrap.channel(NioSocketChannel.class);
-                bootstrap.option(ChannelOption.SO_KEEPALIVE, true);
-                bootstrap.handler(nettyClientInitializer);
-                bootstrap.remoteAddress(nettyConfigProperties.getUrl(), nettyConfigProperties.getPort());
-                f = bootstrap.connect().addListener((ChannelFuture futureListener) -> {
-                    final EventLoop eventLoop = futureListener.channel().eventLoop();
-                    if (!futureListener.isSuccess()) {
-                        System.out.println("与服务端断开连接!在10s之后准备尝试重连!");
-                        eventLoop.schedule(this::start, 10, TimeUnit.SECONDS);
-                    }
-                });
-                if(initFalg){
-                    System.out.println("Netty客户端启动成功!");
-                    initFalg=false;
-                }
-                //向服务端发送信息
-                f.channel().writeAndFlush("dsah");
-                // 阻塞
-                f.channel().closeFuture().sync();
-            }
-        } catch (Exception e) {
+            bootstrap.group(works)
+                    .channel(NioSocketChannel.class)
+                    .option(ChannelOption.TCP_NODELAY, true)
+                    .handler(new NettyClientInitializer());
+            // 启动客户端
+            channelFuture = bootstrap.connect("127.0.0.1", 18000).sync();
+            chat(channelFuture);
+            // 等待客户端链路关闭
+            channelFuture.channel().close();
+        } catch (InterruptedException e) {
             e.printStackTrace();
-            System.out.println("客户端连接失败!"+e.getMessage());
+        } finally {
+            // 优雅退出，释放线程池资源
+            works.shutdownGracefully();
         }
+
 
     }
 
+    /**
+     * 〈〉
+     * 功能描述: 关闭客户端链路<br>
+     * 〈/〉
+     * @param
+     * @return
+     * @author XQ
+     * @date 2019/8/30 11:13
+     */
+    public void close(){
+
+    }
+
+    private void chat(ChannelFuture channelFuture) {
+
+    }
 }

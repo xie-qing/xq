@@ -5,24 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e8b5c49-b45a-402f-99e0-9f73684b478b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Netty/netty-client/src/main/java/com/netty/NettyClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Netty/netty-client/src/main/java/com/netty/config/NettyConfigProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Netty/netty-client/src/main/java/com/netty/handler/NettyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Netty/netty-client/src/main/java/com/netty/handler/NettyClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Netty/netty-client/src/main/java/com/netty/handler/NettyClientInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Netty/netty-client/src/main/java/com/netty/service/SendMsg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Netty/netty-client/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Netty/netty-server/src/test/java/handler/NettyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Netty/netty-server/src/test/java/handler/NettyClient1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Netty/netty-server/src/test/java/handler/NettyClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Netty/netty-server/src/test/java/handler/NettyClientInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToolsKit-Netty/netty-server/src/test/java/service/SendMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToolsKit-Netty/netty-client/src/main/java/com/netty/socket/IOClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToolsKit-Netty/netty-client/src/main/java/com/netty/socket/IOServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToolsKit-Netty/netty-server/src/test/java/handler/NettyClientCon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToolsKit-Netty/netty-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Netty/netty-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToolsKit-Netty/netty-server/src/main/java/com/netty/NettyServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Netty/netty-server/src/main/java/com/netty/NettyServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToolsKit-Netty/netty-server/src/main/java/com/netty/handler/NettyServerFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Netty/netty-server/src/main/java/com/netty/handler/NettyServerFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/com/xq/config/SwaggerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Core/src/main/java/com/xq/config/SwaggerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToolsKit-Core/target/classes/com/xq/config/SwaggerConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Core/target/classes/com/xq/config/SwaggerConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToolsKit-Netty/netty-client/src/main/java/com/netty/handler/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Netty/netty-client/src/main/java/com/netty/handler/NettyClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToolsKit-Netty/netty-server/src/main/java/com/netty/handler/TextWebSocketFrameHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Netty/netty-server/src/main/java/com/netty/handler/TextWebSocketFrameHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToolsKit-Netty/netty-server/src/main/java/com/netty/service/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Netty/netty-server/src/main/java/com/netty/service/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToolsKit-Netty/netty-server/src/test/java/handler/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/ToolsKit-Netty/netty-server/src/test/java/handler/NettyClient.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -293,6 +284,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -378,11 +370,11 @@
       <recent name="D:\XQ\works\ToolsKit\ToolsKit-Core\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xq.rabbitmq.service" />
+      <recent name="com.netty.handler" />
       <recent name="handler" />
       <recent name="config" />
       <recent name="com.xq.sign" />
-      <recent name="exception" />
-      <recent name="constant" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\XQ\works\ToolsKit\ToolsKit-Netty\netty-server\src\main\resources" />
@@ -417,13 +409,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.NettyClientApplication">
-    <configuration name="MD5AndSHA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tools.sign.MD5AndSHA" />
-      <module name="ToolsKit" />
+  <component name="RunManager" selected="Application.NettyClient">
+    <configuration name="IOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.netty.socket.IOClient" />
+      <module name="netty-client" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tools.sign.*" />
+          <option name="PATTERN" value="com.netty.socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.netty.socket.IOServer" />
+      <module name="netty-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.netty.socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -446,19 +451,6 @@
     </configuration>
     <configuration name="NettyClient1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="handler.NettyClient1" />
-      <module name="netty-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="handler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="handler.Test" />
       <module name="netty-server" />
       <extension name="coverage">
         <pattern>
@@ -514,28 +506,30 @@
     <configuration name="ToolskitRabbitMqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ToolsKit-RabbitMQ" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xq.rabbitmq.ToolskitRabbitMqApplication" />
+      <option name="URL_PATH" value="/doc.html" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IOClient" />
+        <item itemvalue="Application.IOServer" />
         <item itemvalue="Application.NettyClient" />
-        <item itemvalue="Application.NettyClient1" />
         <item itemvalue="Spring Boot.NettyServerApplication" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.MD5AndSHA" />
+        <item itemvalue="Application.NettyClient1" />
       </list>
     </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
+        <option name="contentProportion" value="0.16666667" />
         <treeState>
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5d09e50c" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2107ed3b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -591,7 +585,12 @@
       <workItem from="1566790870275" duration="10510000" />
       <workItem from="1566888020209" duration="8473000" />
       <workItem from="1566960325260" duration="6698000" />
-      <workItem from="1567041573151" duration="14138000" />
+      <workItem from="1567041573151" duration="14314000" />
+      <workItem from="1567132952636" duration="4830000" />
+      <workItem from="1567647450071" duration="3405000" />
+      <workItem from="1567668156008" duration="2341000" />
+      <workItem from="1568099978523" duration="8646000" />
+      <workItem from="1568164681544" duration="10989000" />
     </task>
     <task id="LOCAL-00001" summary="rabbitmq">
       <created>1561455127606</created>
@@ -684,7 +683,21 @@
       <option name="project" value="LOCAL" />
       <updated>1566900054280</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="netty">
+      <created>1567073331719</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1567073331719</updated>
+    </task>
+    <task id="LOCAL-00015" summary="netty">
+      <created>1568109109664</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1568109109664</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -706,13 +719,13 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="rabbitmq" />
-    <MESSAGE value="netty" />
     <MESSAGE value="添加sql 脚本" />
     <MESSAGE value="ES操作" />
     <MESSAGE value="redission分布式锁" />
     <MESSAGE value="activiti流程" />
     <MESSAGE value="案例划分" />
-    <option name="LAST_COMMIT_MESSAGE" value="案例划分" />
+    <MESSAGE value="netty" />
+    <option name="LAST_COMMIT_MESSAGE" value="netty" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="XDebuggerManager">
